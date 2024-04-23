@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+    height: 50px;
+}
+.logo {
+    color: #111111;
+    font-size: 30px;
+    font-weight: 100;
+    font-family:"Jokerman";
+}
+.AP{
+    color: rgb(88, 85, 85);
+    font-size: 25px;
+    font-weight: 100;
+    align-items: left;
+}
+.nav-profile{
+    width: 75px;
+}
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    }
+    .nav-profile{
+        width: 60px;
+    }
+}
